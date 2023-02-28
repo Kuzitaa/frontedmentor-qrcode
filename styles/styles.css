@@ -14,12 +14,16 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     font-size: 1.6rem;
+    background-color: var(--light-gray);
 }
 
 main {
-    margin: 80px auto;
     padding: 20px;
     width: 90%;
     max-width: 345px;
